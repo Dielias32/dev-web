@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Nome do Cliente"/>
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone"/>
+
+    <TextView
+        android:id="@+id/txtCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF"/>
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"/>
+
+    <TextView
+        android:id="@+id/txtHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horário"/>
+
+    <TextView
+        android:id="@+id/txtObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obs:"
+        android:textColor="#777"/>
+</LinearLayout>
